@@ -23,7 +23,7 @@ all-local:
 	swift build --configuration release
 
 install-exec-hook:
-	swift install
+	echo swift install
 
 clean-local:
 	swift package clean
